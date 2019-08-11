@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+]>
+<rdf:RDF xmlns="http://www.semanticweb.org/xzra/ontologies/2018/0/wust#"
+    xml:base="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"/>
+
+  <owl:ObjectProperty rdf:ID="Conference">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="#conferences"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="TopicID">
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_paper_topicTopicID">
+    <rdfs:subPropertyOf rdf:resource="#TopicID"/>
+    <rdfs:domain rdf:resource="#rel_paper_topic"/>
+    <rdfs:range rdf:resource="#topics"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_person_topicTopicID">
+    <rdfs:subPropertyOf rdf:resource="#TopicID"/>
+    <rdfs:domain rdf:resource="#rel_person_topic"/>
+    <rdfs:range rdf:resource="#topics"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="PaperID">
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_person_paperPaperID">
+    <rdfs:subPropertyOf rdf:resource="#PaperID"/>
+    <rdfs:domain rdf:resource="#rel_person_paper"/>
+    <rdfs:range rdf:resource="#papers"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_paper_topicPaperID">
+    <rdfs:subPropertyOf rdf:resource="#PaperID"/>
+    <rdfs:domain rdf:resource="#rel_paper_topic"/>
+    <rdfs:range rdf:resource="#papers"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="OrganizationID">
+    <rdfs:domain rdf:resource="#rel_person_organization"/>
+    <rdfs:range rdf:resource="#organizations"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="PersonID">
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_person_paperPersonID">
+    <rdfs:subPropertyOf rdf:resource="#PersonID"/>
+    <rdfs:domain rdf:resource="#rel_person_paper"/>
+    <rdfs:range rdf:resource="#persons"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_person_topicPersonID">
+    <rdfs:subPropertyOf rdf:resource="#PersonID"/>
+    <rdfs:domain rdf:resource="#rel_person_topic"/>
+    <rdfs:range rdf:resource="#persons"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="rel_person_organizationPersonID">
+    <rdfs:subPropertyOf rdf:resource="#PersonID"/>
+    <rdfs:domain rdf:resource="#rel_person_organization"/>
+    <rdfs:range rdf:resource="#persons"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="ParentID">
+    <rdfs:domain rdf:resource="#topics"/>
+    <rdfs:range rdf:resource="#topics"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:ID="Belongsto">
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="#organizations"/>
+  </owl:ObjectProperty>
+
+  <owl:DatatypeProperty rdf:ID="Conference">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="PaperID">
+    <rdfs:domain rdf:resource="#rel_person_paper"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="FirstName">
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Title">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="LastName">
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Publish">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Location">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsLocation">
+    <rdfs:subPropertyOf rdf:resource="#Location"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="conferencesLocation">
+    <rdfs:subPropertyOf rdf:resource="#Location"/>
+    <rdfs:domain rdf:resource="#conferences"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Homepage">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsHomepage">
+    <rdfs:subPropertyOf rdf:resource="#Homepage"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="personsHomepage">
+    <rdfs:subPropertyOf rdf:resource="#Homepage"/>
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Email">
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="OrganizationID">
+    <rdfs:domain rdf:resource="#rel_person_organization"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Type">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsType">
+    <rdfs:subPropertyOf rdf:resource="#Type"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="personsType">
+    <rdfs:subPropertyOf rdf:resource="#Type"/>
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Phone">
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Address">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsAddress">
+    <rdfs:subPropertyOf rdf:resource="#Address"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="personsAddress">
+    <rdfs:subPropertyOf rdf:resource="#Address"/>
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Date">
+    <rdfs:domain rdf:resource="#conferences"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Belongsto">
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="TopicID">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="rel_paper_topicTopicID">
+    <rdfs:subPropertyOf rdf:resource="#TopicID"/>
+    <rdfs:domain rdf:resource="#rel_paper_topic"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="rel_person_topicTopicID">
+    <rdfs:subPropertyOf rdf:resource="#TopicID"/>
+    <rdfs:domain rdf:resource="#rel_person_topic"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Name">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsName">
+    <rdfs:subPropertyOf rdf:resource="#Name"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="conferencesName">
+    <rdfs:subPropertyOf rdf:resource="#Name"/>
+    <rdfs:domain rdf:resource="#conferences"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Country">
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="ParentID">
+    <rdfs:domain rdf:resource="#topics"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="URI">
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="organizationsURI">
+    <rdfs:subPropertyOf rdf:resource="#URI"/>
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="personsURI">
+    <rdfs:subPropertyOf rdf:resource="#URI"/>
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="topicsURI">
+    <rdfs:subPropertyOf rdf:resource="#URI"/>
+    <rdfs:domain rdf:resource="#topics"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="conferencesURI">
+    <rdfs:subPropertyOf rdf:resource="#URI"/>
+    <rdfs:domain rdf:resource="#conferences"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="papersURI">
+    <rdfs:subPropertyOf rdf:resource="#URI"/>
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="RelationType">
+    <rdfs:domain rdf:resource="#rel_paper_topic"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Photo">
+    <rdfs:domain rdf:resource="#persons"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Abstract">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Datum">
+    <rdfs:domain rdf:resource="#conferences"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Postcode">
+    <rdfs:domain rdf:resource="#organizations"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="Year">
+    <rdfs:domain rdf:resource="#papers"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:ID="TopicName">
+    <rdfs:domain rdf:resource="#topics"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:InverseFunctionalProperty rdf:ID = "conferencesConfID"/>
+
+<owl:Class rdf:ID = "conferences">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#conferencesConfID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+</owl:Class>
+
+<conferences>
+  <ConfID   rdf:datatype="&xsd;int">23541</ConfID>
+International Semantic Web Conference 2002</Name>
+http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002</URI>
+June 9-12, 2002</Date>
+Sardinia</Location>
+2002-10-09 00:00:00</Datum>
+</conferences>
+
+<conferences>
+  <ConfID   rdf:datatype="&xsd;int">23542</ConfID>
+15th International World Wide Web Conference</Name>
+None</URI>
+May 23-26, 2006</Date>
+Edinburgh</Location>
+2006-05-23 00:00:00</Datum>
+</conferences>
+
+<owl:InverseFunctionalProperty rdf:ID = "organizationsOrgID"/>
+
+<owl:Class rdf:ID = "organizations">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#organizationsOrgID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#Belongsto" />
+      <owl:allValuesFrom rdf:resource = "#organizations" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">1</OrgID>
+  <Type   rdf:datatype="&xsd;string">None</Type>
+  <Name   rdf:datatype="&xsd;string">USC Information Sciences Institute</Name>
+  <Address>4676 Admirality Way</Address>
+  <Location   rdf:datatype="&xsd;string">Marina Del Rey</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">United States</Country>
+  <URI   rdf:datatype="&xsd;string">http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#ISI</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">2</OrgID>
+  <Type   rdf:datatype="&xsd;string">U</Type>
+  <Name   rdf:datatype="&xsd;string">University of Karlsruhe</Name>
+  <Address>None</Address>
+  <Location   rdf:datatype="&xsd;string">None</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">None</Country>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#University_of_Karlsruhe</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">3</OrgID>
+  <Type   rdf:datatype="&xsd;string">U</Type>
+  <Name   rdf:datatype="&xsd;string">International University in Germany</Name>
+  <Address>None</Address>
+  <Location   rdf:datatype="&xsd;string">None</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">None</Country>
+  <URI   rdf:datatype="&xsd;string">http://www.i-u.de/schools/eberhart/iswc2002/#International University in Germany</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">4</OrgID>
+  <Type   rdf:datatype="&xsd;string">I</Type>
+  <Name   rdf:datatype="&xsd;string">AIFB</Name>
+  <Address>None</Address>
+  <Location   rdf:datatype="&xsd;string">Karlsruhe</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">Germany</Country>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#AIFB</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">http://www.aifb.uni-karlsruhe.de/</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">5</OrgID>
+  <Type   rdf:datatype="&xsd;string">D</Type>
+  <Name   rdf:datatype="&xsd;string">Department of Computer Science</Name>
+  <Address>De Boelelaan 1081a</Address>
+  <Location   rdf:datatype="&xsd;string">Amsterdam</Location>
+  <Postcode   rdf:datatype="&xsd;string">1081 HV</Postcode>
+  <Country   rdf:datatype="&xsd;string">The Netherlands</Country>
+  <URI   rdf:datatype="&xsd;string">http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#CSVUNL</URI>
+  <Belongsto   rdf:datatype="&xsd;int">6</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">6</OrgID>
+  <Type   rdf:datatype="&xsd;string">U</Type>
+  <Name   rdf:datatype="&xsd;string">Vrije Universiteit Amsterdam</Name>
+  <Address>De Boelelaan 1105</Address>
+  <Location   rdf:datatype="&xsd;string">Amsterdam</Location>
+  <Postcode   rdf:datatype="&xsd;string">1081 HV</Postcode>
+  <Country   rdf:datatype="&xsd;string">The Netherlands</Country>
+  <URI   rdf:datatype="&xsd;string">http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#VrijeUniversiteitAmsterdam</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">7</OrgID>
+  <Type   rdf:datatype="&xsd;string">None</Type>
+  <Name   rdf:datatype="&xsd;string">Hewlett-Packard Laboratories, Bristol</Name>
+  <Address>Filton Road</Address>
+  <Location   rdf:datatype="&xsd;string">Bristol</Location>
+  <Postcode   rdf:datatype="&xsd;string">BS34 8QZ</Postcode>
+  <Country   rdf:datatype="&xsd;string">UK</Country>
+  <URI   rdf:datatype="&xsd;string">http://www.hpl.hp.co.uk#HPL</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">http://www.hpl.hp.com/</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">8</OrgID>
+  <Type   rdf:datatype="&xsd;string">I</Type>
+  <Name   rdf:datatype="&xsd;string">Institute for the Protection and Security of the Citizen</Name>
+  <Address>Via Enrico Fermi, 1
+21020 - Ispra (Italy)</Address>
+  <Location   rdf:datatype="&xsd;string">None</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">None</Country>
+  <URI   rdf:datatype="&xsd;string">http://dma.jrc.it#Institute for the Protection and Security of the Citizen</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<organizations>
+  <OrgID   rdf:datatype="&xsd;int">9</OrgID>
+  <Type   rdf:datatype="&xsd;string">D</Type>
+  <Name   rdf:datatype="&xsd;string">Dipartimento di Ingegneria dell'Informazione</Name>
+  <Address>Via Vignolese 905</Address>
+  <Location   rdf:datatype="&xsd;string">Modena</Location>
+  <Postcode   rdf:datatype="&xsd;string">None</Postcode>
+  <Country   rdf:datatype="&xsd;string">Italy</Country>
+  <URI   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/iswc/iswc.html#DII</URI>
+  <Belongsto   rdf:datatype="&xsd;int">None</Belongsto>
+  <Homepage   rdf:datatype="&xsd;string">None</Homepage>
+</organizations>
+
+<owl:InverseFunctionalProperty rdf:ID = "papersPaperID"/>
+
+<owl:Class rdf:ID = "papers">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#papersPaperID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#Conference" />
+      <owl:allValuesFrom rdf:resource = "#conferences" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">1</PaperID>
+  <Title   rdf:datatype="&xsd;string">Trusting Information Sources One Citizen at a Time</Title>
+  <Abstract>This paper describes an approach to derive assessments about information 
+      sources based on individual feedback about the sources. We describe 
+      TRELLIS, a system that helps users annotate their analysis of 
+      alternative information sources that can be contradictory and 
+      incomplete. As the user makes a decision on which sources to dismiss and 
+      which to believe in making a final decision, TRELLIS captures the 
+      derivation of the decision in a semantic markup. TRELLIS then uses these 
+      annotations to derive an assessment of the source based on the 
+      annotations of many individuals. Our work builds on the Semantic Web and 
+      presents a tool that helps users create annotations that are in a mix of 
+      formal and human language, and exploits the formal representations to 
+      derive measures of trust in the content of Web resources and their 
+      original source.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Trusting Information Sources One Citizen at a Time</URI>
+  <Year   rdf:datatype="&xsd;int">2002</Year>
+  <Conference   rdf:datatype="&xsd;int">23541</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">2</PaperID>
+  <Title   rdf:datatype="&xsd;string">Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML</Title>
+  <Abstract>This paper describes two approaches for automatically converting RDF Schema 
+and RuleML sources into an inference engine and storage repository. Rather than 
+using traditional inference systems, our solution bases on mainstream 
+technologies like Java and relational database systems. While this necessarily 
+imposes some restrictions, the ease of integration into an existing IT landscape 
+is a major advantage. We present the conversion tools and their limitations. 
+Furthermore, an extension to RuleML is proposed, that allows Java-enabled 
+reaction rules, where calls to Java libraries can be performed upon a rule 
+firing. This requires hosts to be Java-enabled when rules and code are moved 
+across the web. However, the solution allows for great engineering 
+flexibility.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://www.i-u.de/schools/eberhart/iswc2002/#Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML</URI>
+  <Year   rdf:datatype="&xsd;int">2002</Year>
+  <Conference   rdf:datatype="&xsd;int">23541</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">4</PaperID>
+  <Title   rdf:datatype="&xsd;string">Three Implementations of SquishQL, a Simple RDF Query Language</Title>
+  <Abstract>RDF provides a basic way to represent data for the Semantic Web. We have 
+      been experimenting with the query paradigm for working with RDF data in 
+      semantic web applications. Query of RDF data provides a declarative 
+      access mechanism that is suitable for application usage and remote 
+      access. We describe work on a conceptual model for querying RDF data 
+      that refines ideas first presented in at the W3C workshop on Query 
+      Languages and the design of one possible syntax, derived from rdfDB, 
+      that is suitable for application programmers. Further, we present 
+      experience gained in three implementations of the query language.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://www-uk.hpl.hp.com/people/afs/Abstracts/ISWC2002-SquishQL-Abstract.html#SquishQL</URI>
+  <Year   rdf:datatype="&xsd;int">2003</Year>
+  <Conference   rdf:datatype="&xsd;int">23541</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">5</PaperID>
+  <Title   rdf:datatype="&xsd;string">A Data Integration Framework for E-commerce Product Classification</Title>
+  <Abstract>A marketplace is 
+      the place in which the demand and supply of buyers and vendors 
+      participating in a business process may meet. Therefore, electronic 
+      marketplaces are virtual communities in which buyers may meet proposals 
+      of several suppliers and make the best choice. In the electronic 
+      commerce world, the comparison between different products is blocked due 
+      to the lack of standards (on the contrary, the proliferation of 
+      standards) describing and classifying them. Therefore, the need for B2B 
+      and B2C marketplaces is to reclassify products and goods according to 
+      different standardization models. This paper aims to face this problem 
+      by suggesting the use of a semi-automatic methodology, supported by a 
+      tool (SI-Designer), to define the mapping among different e-commerce 
+      product classification standards. This methodology was developed for the 
+      MOMIS-system within the Intelligent Integration of Information research 
+      area. We describe our extension to the methodology that makes it 
+      applyable in general to product classification standard, by selecting a 
+      fragment of ECCMA/UNSPSC and ecl@ss standard.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/iswc/iswc.html#A Data Integration Framework for E-commerce Product Classification</URI>
+  <Year   rdf:datatype="&xsd;int">2002</Year>
+  <Conference   rdf:datatype="&xsd;int">23541</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">6</PaperID>
+  <Title   rdf:datatype="&xsd;string">Integrating Vocabularies: Discovering and Representing Vocabulary Maps</Title>
+  <Abstract>The Semantic Web would enable new ways of doing business on the<br>Web 
+      that require development of advanced business document<br>integration 
+      technologies performing intelligent document<br>transformation. The 
+      documents use different vocabularies that<br>consist of large 
+      hierarchies of terms. Accordingly, vocabulary<br>mapping and 
+      transformation becomes an important task in the whole<br>business 
+      document transformation process. It includes several<br>subtasks: map 
+      discovery, map representation, and map execution<br>that must be 
+      seamlessly integrated into the document integration<br>process. In this 
+      paper we discuss the process of discovering the<br>maps between two 
+      vocabularies assuming availability of two sets of<br>documents, each 
+      using one of the vocabularies. We take the<br>vocabularies of product 
+      classification codes as a playground and<br>propose a reusable map 
+      discovery technique based on Bayesian text<br>classification approach. 
+      We show how the discovered maps can be<br>integrated into the document 
+      transformation process.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#OmelayenkoISWC2002</URI>
+  <Year   rdf:datatype="&xsd;int">2003</Year>
+  <Conference   rdf:datatype="&xsd;int">23541</Conference>
+  <Publish>0</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">7</PaperID>
+  <Title   rdf:datatype="&xsd;string">The Semantic Web Revisited</Title>
+  <Abstract>The original Scientific American article on the Semantic Web appeared in 2001. It described the evolution of a Web that consisted largely of documents for humans to read to one that included data and information for computers to manipulate. The Semantic Web is a Web of actionable information--information derived from data through a semantic theory for interpreting the symbols.This simple idea, however, remains largely unrealized. Shopbots and auction bots abound on the Web, but these are essentially handcrafted for particular tasks; they have little ability to interact with heterogeneous data and information types. Because we haven't yet delivered large-scale, agent-based mediation, some commentators argue that the Semantic Web has failed to deliver. We argue that agents can only flourish when standards are well established and that the Web standards for expressing shared meaning have progressed steadily over the past five years. Furthermore, we see the use of ontologies in the e-science community presaging ultimate success for the Semantic Web--just as the use of HTTP within the CERN particle physics community led to the revolutionary success of the original Web. This article is part of a special issue on the Future of AI.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://eprints.ecs.soton.ac.uk/12614/01/Semantic_Web_Revisted.pdf</URI>
+  <Year   rdf:datatype="&xsd;int">2006</Year>
+  <Conference   rdf:datatype="&xsd;int">None</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<papers>
+  <PaperID   rdf:datatype="&xsd;int">8</PaperID>
+  <Title   rdf:datatype="&xsd;string">D2R Server - Publishing Relational Databases on the Web as SPARQL Endpoints</Title>
+  <Abstract>The Resource Description Framework and the SPARQL query language provide a standardized way for exposing and linking data sources on the Web. D2R Server is a turn-key solution for making the content of existing, non-RDF databases accessible as SPARQL endpoints. The server takes SPARQL queries from the Web and rewrites them via a mapping into SQL queries against a relational database. This on-the-fly translation allows RDF applications to access the content of large databases without having to replicate them into RDF. D2R Server can be used to integrate existing databases into RDF systems, and to add SPARQL interfaces to database-backed software products. In the talk, we will give an introduction into the D2RQ mapping language, which is used to define mappings between relational and RDF schemata, and demonstrate how D2R Server can be used to extend a WordPress blog with a SPARQL interface.</Abstract>
+  <URI   rdf:datatype="&xsd;string">http://www.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/resources/d2r-server-slides-www2006.pdf</URI>
+  <Year   rdf:datatype="&xsd;int">2006</Year>
+  <Conference   rdf:datatype="&xsd;int">23542</Conference>
+  <Publish>1</Publish>
+</papers>
+
+<owl:InverseFunctionalProperty rdf:ID = "personsPerID"/>
+
+<owl:Class rdf:ID = "persons">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#personsPerID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">1</PerID>
+  <Type   rdf:datatype="&xsd;string">Full_Professor</Type>
+  <FirstName   rdf:datatype="&xsd;string">Yolanda</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Gil</LastName>
+  <Address   rdf:datatype="&xsd;string">None</Address>
+  <Email   rdf:datatype="&xsd;string">gil@isi.edu</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.isi.edu/~gil</Homepage>
+  <Phone   rdf:datatype="&xsd;string">310-448-8794</Phone>
+  <URI   rdf:datatype="&xsd;string">http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Yolanda Gil</URI>
+  <Photo   rdf:datatype="&xsd;string">http://www.isi.edu/~gil/y.g.v4.tiff</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">2</PerID>
+  <Type   rdf:datatype="&xsd;string">None</Type>
+  <FirstName   rdf:datatype="&xsd;string">Varun</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Ratnakar</LastName>
+  <Address   rdf:datatype="&xsd;string">None</Address>
+  <Email   rdf:datatype="&xsd;string">varunr@isi.edu</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.isi.edu/~varunr</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Varun Ratnakar</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">3</PerID>
+  <Type   rdf:datatype="&xsd;string">Researcher</Type>
+  <FirstName   rdf:datatype="&xsd;string">Jim</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Blythe</LastName>
+  <Address   rdf:datatype="&xsd;string">None</Address>
+  <Email   rdf:datatype="&xsd;string">blythe@isi.edu</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.isi.edu/~varunr</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Jim Blythe</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">4</PerID>
+  <Type   rdf:datatype="&xsd;string">Researcher</Type>
+  <FirstName   rdf:datatype="&xsd;string">Andreas</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Eberhart</LastName>
+  <Address   rdf:datatype="&xsd;string">International University in Germany Campus 2 76646 Bruchsal Germany</Address>
+  <Email   rdf:datatype="&xsd;string">eberhart@i-u.de</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.i-u.de/schools/eberhart/</Homepage>
+  <Phone   rdf:datatype="&xsd;string">+49 7251 700 222</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www.i-u.de/schools/eberhart/iswc2002/#Andreas Eberhart</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">5</PerID>
+  <Type   rdf:datatype="&xsd;string">Researcher</Type>
+  <FirstName   rdf:datatype="&xsd;string">Borys</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Omelayenko</LastName>
+  <Address   rdf:datatype="&xsd;string">Vrije Universiteit, Division of Mathematics and Computer Science, De Boelelaan 1081a,1081hv, Amsterdam, The Netherlands</Address>
+  <Email   rdf:datatype="&xsd;string">borys@cs.vu.nl</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.cs.vu.nl/~borys</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www.cs.vu.nl/~borys#Bomelayenko</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">6</PerID>
+  <Type   rdf:datatype="&xsd;string">Researcher</Type>
+  <FirstName   rdf:datatype="&xsd;string">Andy</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Seaborne</LastName>
+  <Address   rdf:datatype="&xsd;string">Hewlett-Packard Laboratories, Bristol, BS34 8QZ, UK</Address>
+  <Email   rdf:datatype="&xsd;string">andy.seaborne@hpl.hp.com</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www-uk.hpl.hp.com/people/afs/</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www-uk.hpl.hp.com/people#andy_seaborne</URI>
+  <Photo   rdf:datatype="&xsd;string">http://semtech2011.semanticweb.com/uploads/images/bios/3205.jpg</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">9</PerID>
+  <Type   rdf:datatype="&xsd;string">None</Type>
+  <FirstName   rdf:datatype="&xsd;string">Alberto</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Reggiori</LastName>
+  <Address   rdf:datatype="&xsd;string">None</Address>
+  <Email   rdf:datatype="&xsd;string">areggiori@webweaving.org</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://reggiori.webweaving.org/</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://reggiori.webweaving.org#Alberto Reggiori</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">10</PerID>
+  <Type   rdf:datatype="&xsd;string">Full_Professor</Type>
+  <FirstName   rdf:datatype="&xsd;string">Sonia</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Bergamaschi</LastName>
+  <Address   rdf:datatype="&xsd;string">DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena</Address>
+  <Email   rdf:datatype="&xsd;string">bergamaschi.sonia@unimo.it</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/Bergamaschi.html</Homepage>
+  <Phone   rdf:datatype="&xsd;string">+39 059 2056132</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/iswc/iswc.html#S. Bergamaschi</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">11</PerID>
+  <Type   rdf:datatype="&xsd;string">None</Type>
+  <FirstName   rdf:datatype="&xsd;string">Francesco</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Guerra</LastName>
+  <Address   rdf:datatype="&xsd;string">DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena Italy</Address>
+  <Email   rdf:datatype="&xsd;string">guerra.francesco@unimo.it</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/~guerra/</Homepage>
+  <Phone   rdf:datatype="&xsd;string">+39 059 20561543</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www.dbgroup.unimo.it/iswc/iswc.html#F. Guerra</URI>
+  <Photo   rdf:datatype="&xsd;string">None</Photo>
+</persons>
+
+<persons>
+  <PerID   rdf:datatype="&xsd;int">12</PerID>
+  <Type   rdf:datatype="&xsd;string">Researcher</Type>
+  <FirstName   rdf:datatype="&xsd;string">Christian</FirstName>
+  <LastName   rdf:datatype="&xsd;string">Bizer</LastName>
+  <Address   rdf:datatype="&xsd;string">Freie Universität Berlin</Address>
+  <Email   rdf:datatype="&xsd;string">chris@bizer.de</Email>
+  <Homepage   rdf:datatype="&xsd;string">http://www.bizer.de/</Homepage>
+  <Phone   rdf:datatype="&xsd;string">None</Phone>
+  <URI   rdf:datatype="&xsd;string">http://www.bizer.de/foaf.rdf#chris</URI>
+  <Photo   rdf:datatype="&xsd;string">http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/pics/bizer_christian_200x300.png</Photo>
+</persons>
+
+
+<owl:Class rdf:ID = "rel_paper_topic">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#PaperID"/>
+      <owl:cardinality rdf:datatype = "&xsd;nonNegativeInteger"> 1 </owl:cardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#TopicID"/>
+      <owl:cardinality rdf:datatype = "&xsd;nonNegativeInteger"> 1 </owl:cardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">1</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">5</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">1</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">1</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">15</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">2</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">3</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">3</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">2</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">5</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">4</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">10</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">4</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">11</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">1</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">4</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">14</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">5</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">2</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">3</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">5</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">3</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">1</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">5</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">13</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">6</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">5</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">2</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">6</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">11</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">1</RelationType>
+</rel_paper_topic>
+
+<rel_paper_topic>
+  <PaperID   rdf:datatype="&xsd;int">6</PaperID>
+  <TopicID   rdf:datatype="&xsd;int">13</TopicID>
+  <RelationType   rdf:datatype="&xsd;int">3</RelationType>
+</rel_paper_topic>
+
+<owl:InverseFunctionalProperty rdf:ID = "topicsTopicID"/>
+
+<owl:Class rdf:ID = "topics">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#topicsTopicID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#ParentID" />
+      <owl:allValuesFrom rdf:resource = "#topics" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">1</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Knowledge Representation Languages</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Representation_Languages</URI>
+  <ParentID   rdf:datatype="&xsd;int">3</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">2</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Knowledge Systems</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Systems</URI>
+  <ParentID   rdf:datatype="&xsd;int">15</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">3</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Artificial Intelligence</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Artificial_Intelligence</URI>
+  <ParentID   rdf:datatype="&xsd;int">None</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">4</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Semantic Annotation</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Annotation</URI>
+  <ParentID   rdf:datatype="&xsd;int">5</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">5</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Semantic Web</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web</URI>
+  <ParentID   rdf:datatype="&xsd;int">8</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">6</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Semantic Web Languages</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Languages</URI>
+  <ParentID   rdf:datatype="&xsd;int">5</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">7</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Web Services</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Web_Services</URI>
+  <ParentID   rdf:datatype="&xsd;int">8</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">8</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">World Wide Web</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#World_Wide_Web</URI>
+  <ParentID   rdf:datatype="&xsd;int">None</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">9</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Text Mining</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Text_Mining</URI>
+  <ParentID   rdf:datatype="&xsd;int">16</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">10</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Databases</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Databases</URI>
+  <ParentID   rdf:datatype="&xsd;int">None</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">11</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Semantic Web Infrastructure</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Iinfrastructure</URI>
+  <ParentID   rdf:datatype="&xsd;int">5</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">13</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">E-Business</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#e-Business</URI>
+  <ParentID   rdf:datatype="&xsd;int">None</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">14</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Query Languages</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Query_Languages</URI>
+  <ParentID   rdf:datatype="&xsd;int">16</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">15</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Knowledge Management</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Management</URI>
+  <ParentID   rdf:datatype="&xsd;int">None</ParentID>
+</topics>
+
+<topics>
+  <TopicID   rdf:datatype="&xsd;int">16</TopicID>
+  <TopicName   rdf:datatype="&xsd;string">Knowledge Discovery</TopicName>
+  <URI   rdf:datatype="&xsd;string">http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Discovery</URI>
+  <ParentID   rdf:datatype="&xsd;int">3</ParentID>
+</topics>
+
+</rdf:RDF >

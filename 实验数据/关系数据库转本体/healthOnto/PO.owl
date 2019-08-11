@@ -1,0 +1,2284 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalIDCardType"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "04"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "03"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCard"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasNanjingCode" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "中华人民共和国居民身份证"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Device",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "设备"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Disease",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "疾病（预留）"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#DosageForm",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉标准-第五章-表5-8-药物剂型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Currency",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "货币"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Description",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "一般性描述"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T12406-2008",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标职务编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T15657-1995",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标主诊断编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T16835-1997",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标专业编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2261.2-2003",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标婚姻状况编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2659-2000",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标国籍编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T4761-2008_1",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标联系人关系代码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB2260-2007",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标出生地代码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB3304-1991",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标民族编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc"
+  }, {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical"
+  }, {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AfterLaborRecoveryAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "07"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AmbulatoryStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Arrived",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#VisitStatus" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Association",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "关联类"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#BirthPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB2260-2007"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#BirthPlaceAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "06"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Cancelled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#VisitStatus" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#CatastrophicSupplementaryMedicalInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "06"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ChangedAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "08"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#China",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nationality" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#CommercialHealthInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "商业医疗保险"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "07"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "05"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "05"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Confidentiality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ProfileStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Contact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "联系方式类"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Contact"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T_4761-2008_1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactableAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "04"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Controlled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Confidentiality" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#CurrentAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "09"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Daughter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "女儿"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Department",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#DepartmentType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Devorced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Disability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Doctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Provider"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#DrivingLicense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "驾驶证"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "05"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EmploymentStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Enterprise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseContactPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseRegistrationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "企业登记注册类型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseSupplementaryMedicalInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "05"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EthnicGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB3304-1991"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Executive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Exit-EntryPermitforHongKongandMacao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "06"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Exit-EntryPermitforTaiwan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "07"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FacilityDistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FacilityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Female",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "女性"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FinancialClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FirstMarriage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Foreign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "外籍"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "6"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GT/T_2261.1-2003"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GovernanceRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GovernmentEmployeeHealthBenefit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "04"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GrandChild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "孙子、孙女、外孙子、外孙女。"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GrandParent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "祖父母、外祖父母"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "6"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Han",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EthnicGroup" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HealthCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HomeAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "03"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HongKongMacaoTaiwan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "港澳台"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HuKou",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "户口"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "02"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HukouAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#InsuranceCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Enterprise"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#InsurancePayor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T12406-2008"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T8561-2001"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#LegalPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#LocalCounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "本县区"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Major",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "专业"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T16835-1997"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Male",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "男性"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseType"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T_2261.3-2003"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Married",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFacilityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalStaff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Provider"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MilitaryOfficerCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "军官证"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "04"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Modification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ProfileStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T_2659-2000"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#NewRuralJointHealthProgramme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@value" : "新型农村合作医疗"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "03"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "03"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "03"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#NormalProfileUpdate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Modification" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Provider"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Status"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherCityInLocalProvince",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "本省其他城市"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherCountyInLocalCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "本市其他县区"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherFeeSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherInsuranceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "99"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherLegitCertificate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "其他法定有效证件"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "99"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherPersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherProvince",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "外省"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "其他关系"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherSocialHealthInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "其他社会保险"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "08"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "08"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Parent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "父母"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Passport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "03"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Paticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PatientContactPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "患者归属地"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  }, {
+    "@id" : "_:genid11"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Status"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PrimaryLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ProfileStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Status"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PropertySupport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "贫困救助"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "04"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "04"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Provider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ReMarry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Rescheduled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#VisitStatus" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ResidentIDCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "居民身份证"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#RestoredMarriage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#RevokeableProfileUpdate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Modification" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SelfPaid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "自费医疗"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "07"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "07"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Sibling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "兄弟姐妹"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Single",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SiteGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Son",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "子"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Specialty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Spouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "配偶"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#StateProvided",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "公费医疗"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "06"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "06"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Supplier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseType"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code" : [ {
+    "@id" : "_:genid25"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#TemporaryAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "05"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Uncontrolled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Confidentiality" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#UndefinedGender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "未说明的性别"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#UndefinedMarriageStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#UnknownGender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "未知性别"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#UrbanResidenceBasicHealthInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "城镇居民基本医疗保险"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#UrbanWorkersBasicHealthInsurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "城镇居民基本医疗保险"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#VisitStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Widowed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#WorkAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressInCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressInCounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressInProvince",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressInStreet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressInTown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#addressStreetNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#birthPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#BirthPlace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mandatory" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB2260-2007"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#dateOfBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "YYYYMMDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#maxLength" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#facilityLegalPersonPhoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#facilityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "机构等级"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#facilityMailCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mailCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#facilityPhoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#governance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "医疗机构隶属关系"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasAddressType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactAddress"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasAmbulatoryStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasBusinessScope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "企业所属行业"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV02.01.204Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCV07.10.005Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasConfidentiality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Confidentiality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasProfileStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Contact"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasContactPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasContactRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDeparmentName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartmentCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "科室代码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDisability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEmailAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEmploymentStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterprise",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseContactPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseContactPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasContactPerson"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseGroupCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseGroupName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterpriseRegionCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "企业行政区域代码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEthnicGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EthnicGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB3304-1991"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacilityCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "医疗机构代码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacilityDistrict",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacilityLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationLevel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacilityType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFinancialClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasGender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasGovernanceRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GovernanceRelation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasHC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HealthCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasHospitalName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasInsuranceCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasEnterprise"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasInsurancePayorCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasInternalCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasInternalPatientIDNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#identification" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIntranetID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIssuingRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "cn",
+    "@value" : "社保卡发卡地区，编号尚不明确"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasJobCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasJobName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasJobTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasJobTitleName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasJobType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasLegalPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#LegalPerson"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMajor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMarriageStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T_2261.3-2003"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMedicalInsuranceBureauCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "医保局代码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMedicalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMedicineTypeCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#MedicineTypeCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMinistryOfHealthCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "卫计委代码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#identification" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mandatory" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#maxLength" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasNanjingCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasNationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nationality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T_2659-2000"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPIC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasParentDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPaticipant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPaticipantCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPatientContactPerson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PatientContactPerson"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasContactPerson"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPatientJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patientjurisdiction"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalIDCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDCardType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPrimaryCareProvider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPrimaryFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPrimaryLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasProfileStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasReligion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSIC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSiteCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSiteGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSiteGroupCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSocialInsuranceCardType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDCardType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasSpecialty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasTWCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasUSCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasUSNPI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasVisitStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPersonalStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWorkIDNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDataCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#homeAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#homePhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hukouAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hukouMailCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mailCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#identification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#restriction"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isExternal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "是否保险计划外机构"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isHospitalist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isPCP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isSpecialist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isTeaching",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "是否教学医疗机构"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isUrban",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "是否城市机构"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#isUrgentCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#lowerAssociated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mailCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mandatory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#restriction"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#maxLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#restriction"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mobilePhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasProfileStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#numberOfBeds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#numberOfPhysicians",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#person1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Doctor", "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nurse" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#profileDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#relevantFacilityForDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Department"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Hospital"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#restriction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#standard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#upperAssociated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#workMailCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#mailCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#workPhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#telephoneNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#workPlaceAddress",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#address"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#workPlaceName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ABOBloodType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标电子病历-第一章-表3-血型代码"
+  } ]
+} ]

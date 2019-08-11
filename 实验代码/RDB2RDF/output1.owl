@@ -1,0 +1,4763 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+]>
+<rdf:RDF xmlns="http://www.semanticweb.org/xzra/ontologies/2018/0/wust#"
+    xml:base="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"/>
+
+<owl:InverseFunctionalProperty rdf:ID = "id"/>
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#BirthPlace"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#BirthPlace"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#BirthPlace"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "BirthPlace">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<BirthPlace>
+  <id   rdf:datatype="&xsd;string">001</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">420100</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">武汉市</encodingItem>
+</BirthPlace>
+
+<BirthPlace>
+  <id   rdf:datatype="&xsd;string">002</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">420106</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">武昌区</encodingItem>
+</BirthPlace>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#ChargeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#ChargeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#ChargeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "ChargeType">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<ChargeType>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">收费</encodingItem>
+</ChargeType>
+
+<ChargeType>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">退费</encodingItem>
+</ChargeType>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#ContactRelation"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#ContactRelation"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#ContactRelation"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "ContactRelation">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">0</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">0</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">本人</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">配偶</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">10</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">配偶</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">11</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">子</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">12</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">女</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">14</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">孙子、孙女或外孙子、外孙女</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">15</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">5</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">父母</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">16</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">6</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">祖父母或外祖父母</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">17</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">7</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">兄、弟、姐、妹</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">18</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">8</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">儿子</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">女儿</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">孙子、孙女或外孙子、外孙女</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">5</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">父母</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">6</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">祖父母或外祖父母</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">7</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">兄弟姐妹</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">8</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">同事同学</encodingItem>
+</ContactRelation>
+
+<ContactRelation>
+  <id   rdf:datatype="&xsd;string">9</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他</encodingItem>
+</ContactRelation>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasFacilityCode"/>
+<owl:InverseFunctionalProperty rdf:ID = "hasDoctorAdviceID"/>
+<owl:ObjectProperty rdf:ID="hasInPatientCaseSerialID">
+ <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+ <rdfs:range rdf:resource="#InPatientCaseRecord"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasDoctorAdviceRevokeMark">
+ <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+ <rdfs:range rdf:resource="#DoctorAdviceRevokeMark"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasIDNumber">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIDCardType">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasCurrentDisease">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIssuingFacilityDepartmentCode">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIssuingFacilityDepartmentName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasOrderingDoctorWorkID">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasOrderingDoctorName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasOrderingTime">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasExecutionDepartmentCode">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasExecutionDepartmentName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasExecutorWorkID">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasExecutorName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasStopperWorkID">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasStopperWorkName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBillingDepartmentCode">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBillingDepartmentName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBillingDoctorWorkID">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBillingDoctorName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasRecordDateTime">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="startTime">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="endTime">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDoctorAdviceText">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDetailedServiceCode">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasServiceName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasMedicineName">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasMedicineUsageFrequency">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasMethodOfAdministration">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="isSkinTest">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDecoctionOfChineseDrugCode">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="isMainDrug">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPrice">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConfidentiality">
+    <rdfs:domain rdf:resource="#DetailedDoctorAdviceRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DetailedDoctorAdviceRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDoctorAdviceID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInPatientCaseSerialID" />
+      <owl:allValuesFrom rdf:resource = "#InPatientCaseRecord" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasDoctorAdviceRevokeMark" />
+      <owl:allValuesFrom rdf:resource = "#DoctorAdviceRevokeMark" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIDNumber"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIDCardType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIssuingFacilityDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIssuingFacilityDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasOrderingDoctorWorkID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasOrderingDoctorName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasOrderingTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasExecutionDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasExecutionDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasBillingDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasBillingDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDetailedServiceCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasServiceName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#DetailedFeeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#DetailedFeeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#DetailedFeeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DetailedFeeType">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">00</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">挂号费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">10</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">09</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">麻醉费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">11</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">10</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">材料费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">12</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他费用</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">01</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">西药费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">02</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中成药</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">03</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中草药</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">04</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">诊查费（包括留观费）</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">05</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">检验费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">06</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">检查费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">07</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">治疗费</encodingItem>
+</DetailedFeeType>
+
+<DetailedFeeType>
+  <id   rdf:datatype="&xsd;string">9</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">08</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">手术费</encodingItem>
+</DetailedFeeType>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasDetailedInPatientFeeRecordID"/>
+<owl:ObjectProperty rdf:ID="hasChargeType">
+ <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#ChargeType"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasInPatientCaseSerialID">
+ <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#InPatientCaseRecord"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasDoctorAdviceRecordID">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasInvoiceID">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBillID">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasDetailedFeeType">
+ <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#DetailedFeeType"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasServiceCode">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="HealthInsuranceServiceCode">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasServiceName">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasTotalPrice">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasInternalPatientIDNumber">
+ <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#Patient"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasCaseRecordID">
+    <rdfs:domain rdf:resource="#DetailedInPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DetailedInPatientFeeRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDetailedInPatientFeeRecordID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasChargeType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInPatientCaseSerialID" />
+      <owl:allValuesFrom rdf:resource = "#InPatientCaseRecord" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasBillID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasDetailedFeeType" />
+      <owl:allValuesFrom rdf:resource = "#DetailedFeeType" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasServiceCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasServiceName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasTotalPrice"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber" />
+      <owl:allValuesFrom rdf:resource = "#Patient" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasCaseRecordID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasDetailedOutEmergencyFeeRecordID"/>
+<owl:ObjectProperty rdf:ID="hasChargeType">
+ <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#ChargeType"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasOutPatientCaseSerialID">
+ <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#OutPatientCaseRecord"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentName">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPrescriptionID">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasInvoiceID">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasChargeBillID">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasDetailedFeeType">
+ <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#DetailedFeeType"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasRecordDateTime">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasServiceCode">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasHealthInsuranceServiceCode">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasServiceName">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasTotalPrice">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasInternalPatientIDNumber">
+ <rdfs:domain rdf:resource="#DetailedOutEmergencyPatientFeeRecord"/>
+ <rdfs:range rdf:resource="#Patient"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:ID = "DetailedOutEmergencyPatientFeeRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDetailedOutEmergencyFeeRecordID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasChargeType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasOutPatientCaseSerialID" />
+      <owl:allValuesFrom rdf:resource = "#OutPatientCaseRecord" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasChargeBillID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasDetailedFeeType" />
+      <owl:allValuesFrom rdf:resource = "#DetailedFeeType" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasRecordDateTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasServiceCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasServiceName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasTotalPrice"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber" />
+      <owl:allValuesFrom rdf:resource = "#Patient" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#DiagnosisCodeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#DiagnosisCodeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#DiagnosisCodeType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DiagnosisCodeType">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<DiagnosisCodeType>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">01</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">ICD-10</encodingItem>
+</DiagnosisCodeType>
+
+<DiagnosisCodeType>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">02</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">GB/T 15657-1995</encodingItem>
+</DiagnosisCodeType>
+
+<owl:ObjectProperty rdf:ID="hasInPatientCaseSerialID">
+ <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+ <rdfs:range rdf:resource="#InPatientCaseRecord"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasCaseRecordID">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentCode">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentName">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasFacilityDistrictName">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasRoomID">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBedID">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPatientName">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPatientGender">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPatientAge">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionTime">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeTime">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasLengthofStayInDays">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisCode">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionDiagnosis">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeDiagnosis">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionSymptomsSigns">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeSymptomsSigns">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasExaminationResultAndConsultationDescription">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasSpecialExamination">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasTreatmentProcess">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasComplication">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeSituation">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDoctorAdvice">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConditionTurnoutTypeCode">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorWorkID">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorName">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasResidentDoctorWorkID">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasResidentDoctorName">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasSignatureDateTime">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasInternalPatientIDNumber">
+ <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+ <rdfs:range rdf:resource="#Patient"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasFileLink">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConfidentiality">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionConditionDescription">
+    <rdfs:domain rdf:resource="#DischargeSummaryRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DischargeSummaryRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasInPatientCaseSerialID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasBedID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasPatientName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasPatientGender"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasPatientAge"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAdmissionTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDischargeTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasLengthofStayInDays"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDischargeDiagnosis"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAdmissionSymptomsSigns"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasExaminationResultAndConsultationDescription"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasTreatmentProcess"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDischargeSituation"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDoctorAdvice"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasConditionTurnoutTypeCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAttendingDoctorWorkID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAttendingDoctorName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasResidentDoctorWorkID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasResidentDoctorName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber" />
+      <owl:allValuesFrom rdf:resource = "#Patient" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasWorkIDNumber"/>
+  <owl:DatatypeProperty rdf:ID="hasName">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dateOfBirth">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasGender">
+ <rdfs:domain rdf:resource="#Doctor"/>
+ <rdfs:range rdf:resource="#Gender"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasIDNumber">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentCode">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasJobCode">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasJobName">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasJobTitleName">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIntranetID">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasMajor">
+    <rdfs:domain rdf:resource="#Doctor"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "Doctor">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasWorkIDNumber"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#dateOfBirth"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasGender" />
+      <owl:allValuesFrom rdf:resource = "#Gender" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIntranetID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#DoctorAdviceRevokeMark"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#DoctorAdviceRevokeMark"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#DoctorAdviceRevokeMark"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "DoctorAdviceRevokeMark">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<DoctorAdviceRevokeMark>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">正常</encodingItem>
+</DoctorAdviceRevokeMark>
+
+<DoctorAdviceRevokeMark>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">撤销该医嘱</encodingItem>
+</DoctorAdviceRevokeMark>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#EthnicGroup"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#EthnicGroup"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#EthnicGroup"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "EthnicGroup">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<EthnicGroup>
+  <id   rdf:datatype="&xsd;string">001</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">09</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">布依族</encodingItem>
+</EthnicGroup>
+
+<EthnicGroup>
+  <id   rdf:datatype="&xsd;string">002</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">01</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">汉族</encodingItem>
+</EthnicGroup>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#Gender"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#Gender"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#Gender"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "Gender">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">0</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未知的性别</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">男</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">女</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未说明的性别</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">0</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未知的性别</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">男性</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">女性</encodingItem>
+</Gender>
+
+<Gender>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未说明的性别</encodingItem>
+</Gender>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasInPatientCaseSerialID"/>
+  <owl:DatatypeProperty rdf:ID="hasInpatientID">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPatientName">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorWorkID">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorName">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionDepartmentCode">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAdmissionDepartmentName">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeDepartmentCode">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDischargeDepartmentName">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisCode">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisName">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasDiagnosisCodeType">
+ <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#DiagnosisCodeType"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="admissionTime">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="diagnosedTime">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAssuredTime">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="dischargedTime">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConfidentiality">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasMedicalFeeSource">
+ <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#MedicalFeeSource"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasPatientJurisdiction">
+ <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#PatientJurisdiction"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasCaseRecordID">
+    <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasInternalPatientIDNumber">
+ <rdfs:domain rdf:resource="#InPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#Patient"/>
+</owl:ObjectProperty>
+
+<owl:Class rdf:ID = "InPatientCaseRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasInPatientCaseSerialID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasInpatientID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasPatientName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAdmissionDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAdmissionDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDischargeDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDischargeDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDiagnosisCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasDiagnosisCodeType" />
+      <owl:allValuesFrom rdf:resource = "#DiagnosisCodeType" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#admissionTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#dischargedTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;dateTime">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasMedicalFeeSource" />
+      <owl:allValuesFrom rdf:resource = "#MedicalFeeSource" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasPatientJurisdiction" />
+      <owl:allValuesFrom rdf:resource = "#PatientJurisdiction" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber" />
+      <owl:allValuesFrom rdf:resource = "#Patient" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#Marriage"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#Marriage"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#Marriage"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "Marriage">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">10</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">23</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">复婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">11</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">30</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">丧偶</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">12</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">40</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">离婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">13</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">90</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未说明的婚姻状况</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">已婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">离异</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">丧偶</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">10</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">未婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">20</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">已婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">21</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">初婚</encodingItem>
+</Marriage>
+
+<Marriage>
+  <id   rdf:datatype="&xsd;string">9</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">22</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">再婚</encodingItem>
+</Marriage>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#MedicalFeeSource"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#MedicalFeeSource"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#MedicalFeeSource"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "MedicalFeeSource">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">01</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">城镇职工基本医疗保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">10</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">公费病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">11</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">10</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">武汉职保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">12</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">11</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">基金会病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">13</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">12</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">明天计划</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">14</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">农村合作医疗</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">15</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13A</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">湖北省农合</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">16</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13B</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安徽省农合</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">17</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13C</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">河南省农合</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">18</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13D</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">江西省农合</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">19</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13E</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">武汉农合直补</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">02</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">城镇居民基本医疗保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">20</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13F</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">湖北农合直补</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">21</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13G</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安徽农合直补</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">22</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13H</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">江西农合直补</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">23</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13I</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">河南农合直补</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">24</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">14</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">华夏基金</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">25</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">15</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">自费医保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">26</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">16</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">商业保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">27</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">17</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">武汉居保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">28</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">18</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">大学生医保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">29</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">19</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市外居保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">03</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">新型农村合作医疗</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">30</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">20</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">省内大病救治</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">31</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">21</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">江西大病救治</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">32</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">家属</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">33</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市外职保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">34</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">30</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">低保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">35</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">31</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">孝感医保</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">36</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">32</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">异地就医</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">37</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">33</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">青山离休</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">38</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">34</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区高干</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">39</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">35</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区高知</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">04</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">贫困救助</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">40</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">36</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区离休高干</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">41</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">37</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区企离休</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">42</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">38</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区企优诊</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">43</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">39</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区伤残</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">44</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">39A</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区无职业伤残</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">45</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">自费病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">46</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">40</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区行政离休</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">47</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">41</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区优诊</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">48</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">42</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">生育医疗</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">49</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">43</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市企离休</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">05</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">商业医疗保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">50</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">44</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市伤残</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">51</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">45</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市直保健</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">52</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">46</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市直统筹</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">53</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">47</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">市直优诊</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">54</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">48</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中南建筑设计院</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">55</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">49</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">区优抚</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">56</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">5</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">免号病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">57</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">51</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">特价病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">58</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">52</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">122交通事故</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">59</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">53</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">110绿色通道</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">06</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">全公费</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">60</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">54</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">计生</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">61</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">55</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">工伤保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">62</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">6</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">职工</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">63</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">7</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">包价病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">64</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">8</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">急救病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">65</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">款未到病人</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">07</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">全自费</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">08</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他社会保险</encodingItem>
+</MedicalFeeSource>
+
+<MedicalFeeSource>
+  <id   rdf:datatype="&xsd;string">9</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">99</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">其他</encodingItem>
+</MedicalFeeSource>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#Nationality"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#Nationality"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#Nationality"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "Nationality">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">001</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">156</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">002</id>
+  <encodingType   rdf:datatype="&xsd;string">general</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">840</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">美国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿鲁巴</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">10</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">10</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">亚美尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">100</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">100</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">洪都拉斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">101</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">101</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">克罗地亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">102</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">102</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">海地</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">103</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">103</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">匈牙利</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">104</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">104</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">印度尼西亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">105</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">105</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">印度</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">106</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">106</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英属印度洋领土</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">107</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">107</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">爱尔兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">108</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">108</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">伊朗</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">109</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">109</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">伊拉克</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">11</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">11</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">美属萨摩亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">110</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">110</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">冰岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">111</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">111</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">以色列</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">112</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">112</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">意大利</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">113</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">113</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">牙买加</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">114</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">114</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">约旦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">115</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">115</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">日本</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">116</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">116</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">约翰斯顿岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">117</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">yaxin</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">哈萨克斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">118</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">118</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">肯尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">119</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">119</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">吉尔斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">12</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">12</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">南极洲</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">120</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">120</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">柬埔寨</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">121</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">121</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">基里巴斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">122</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">122</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣基茨和尼维斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">123</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">123</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">韩国（南朝鲜）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">124</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">124</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">科威特</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">125</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">125</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">老挝</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">126</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">126</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">黎巴嫩</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">127</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">127</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">利比里亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">128</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">128</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">利比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">129</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">129</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣卢西亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">13</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">13</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">法属南部领土</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">130</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">130</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">列支敦土登</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">131</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">131</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斯里兰卡</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">132</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">132</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">莱索托</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">133</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">133</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">立陶宛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">134</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">134</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">卢森堡</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">135</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">135</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">拉脱维亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">136</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">136</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">澳门</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">137</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">137</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">摩洛哥</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">138</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">138</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">摩纳哥</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">139</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">139</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">摩尔多瓦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">14</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">14</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安提瓜和巴布达</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">140</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">140</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马达加</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">141</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">142</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马尔代夫</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">142</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">143</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">墨西哥</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">143</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">144</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马绍尔群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">144</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">145</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中途岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">145</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">146</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马其顿</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">146</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">147</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马里</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">147</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">148</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马耳他</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">148</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">149</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">缅甸</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">15</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">15</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">澳大利亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">150</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">150</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">蒙古</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">151</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">151</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">北马里亚纳</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">152</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">152</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">莫桑比克</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">153</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">153</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">毛里塔尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">154</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">155</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">蒙特</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">155</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">156</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马提尼克</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">156</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">157</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">毛里求斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">157</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">158</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马拉维</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">158</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">159</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马来西亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">159</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">160</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马约特</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">16</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">16</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">奥地利</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">160</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">161</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">纳米比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">161</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">162</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">新喀里多尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">162</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">163</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">尼日尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">163</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">164</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">诺福克岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">164</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">165</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">尼日利亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">165</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">166</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">尼加拉瓜</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">166</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">167</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">纽埃</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">167</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">168</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">荷兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">168</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">169</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">挪威</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">169</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">170</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">尼波尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">17</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">17</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿塞拜疆</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">170</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">171</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瑙鲁</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">171</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">172</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中间地带</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">172</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">173</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">新西兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">173</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">174</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿曼</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">174</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">175</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴基斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">175</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">176</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴拿马</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">176</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">177</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">皮特凯恩群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">177</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">178</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">秘鲁</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">178</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">179</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">菲律宾</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">179</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">181</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">贝劳</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">18</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">18</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">布隆迪</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">180</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">182</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴布亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">181</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">183</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">波兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">182</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">184</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">波多黎各</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">183</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">185</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">朝鲜</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">184</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">186</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">葡萄牙</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">185</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">187</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴拉圭</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">186</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">188</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴勒斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">187</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">189</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">法属菠利尼西亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">188</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">190</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">卡塔尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">189</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">191</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">留尼汪</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">19</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">19</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">比利时</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">190</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">192</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">罗马尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">191</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">193</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">俄罗斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">192</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">194</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">卢旺达</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">193</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">213</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">沙特阿拉伯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">194</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">195</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">苏丹</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">195</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">196</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞内加尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">196</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">217</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞尔维亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">197</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">198</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">新加坡</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">198</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">199</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">南乔治亚岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">199</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">200</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣赫勒拿</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿富汗</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">20</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">20</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">贝宁</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">200</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">201</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斯瓦尔巴群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">201</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">202</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">所罗门群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">202</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">203</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞拉利昂</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">203</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">204</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">萨尔瓦多</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">204</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">205</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣马力诺</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">205</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">206</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">索马里</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">206</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">207</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣皮埃尔和密克隆</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">207</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">208</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞班</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">208</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">209</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣多美和普林西比</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">209</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">210</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">苏里南</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">21</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">21</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">布基纳法索</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">210</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">211</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斯洛伐克</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">211</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">212</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斯洛文尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">212</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">214</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瑞典</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">213</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">215</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斯威士兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">214</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">216</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">锡金</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">215</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">218</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞舌尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">216</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">219</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">叙利亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">217</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">220</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">特克斯和凯科群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">218</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">221</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">乍得</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">219</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">222</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">多哥</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">22</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">22</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">孟加拉国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">220</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">223</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">泰国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">221</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">224</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塔吉克斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">222</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">225</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">托克劳</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">223</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">226</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">土库曼斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">224</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">227</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">东帝汶</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">225</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">228</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">汤加</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">226</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">229</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">特立尼达和多巴哥</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">227</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">230</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">突尼斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">228</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">231</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">土耳其</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">229</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">232</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">图瓦卢</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">23</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">23</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">保加利亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">230</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">233</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">台湾</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">231</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">234</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">坦桑尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">232</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">235</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">乌干达</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">233</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">236</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">乌克兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">234</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">237</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">美属太平洋各群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">235</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">238</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">联合国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">236</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">239</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">联合国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">237</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">240</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">联合国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">238</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">241</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">乌拉圭</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">239</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">242</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">美国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">24</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">24</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴林</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">240</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">243</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">乌兹别克斯坦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">241</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">244</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">梵蒂冈</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">242</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">245</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣文森特和格林纳丁斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">243</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">246</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">委内瑞拉</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">244</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">247</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英属维尔京群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">245</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">248</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">美属维尔京群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">246</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">249</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">越南</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">247</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">250</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瓦努阿图</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">248</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">251</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">威克岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">249</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">252</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瓦利斯和富图纳群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">25</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">25</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴哈马</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">250</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">253</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">西萨摩亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">251</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">254</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">无国籍（人）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">252</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">255</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">无国籍（难民）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">253</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">256</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">无国籍（未声明）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">254</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">257</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">也门</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">255</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">258</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">南斯拉夫</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">256</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">259</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">南非</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">257</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">197</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">扎伊尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">258</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">154</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">赞比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">259</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">141</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">津巴布韦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">26</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">26</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">波斯尼亚和黑塞哥维那</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">260</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">180</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">津巴布韦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">27</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">27</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">白俄罗斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">28</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">28</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">伯利兹</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">29</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">29</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">百幕大</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安哥拉</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">30</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">30</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">玻利维亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">31</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">31</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴西</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">32</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">32</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">巴多斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">33</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">33</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">文莱</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">34</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">34</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">不丹</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">35</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">35</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">布维岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">36</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">36</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">博茨瓦纳</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">37</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">37</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中非</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">38</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">38</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">加拿大</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">39</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">39</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">科斯群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安圭拉</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">40</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">40</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瑞士</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">41</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">41</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">智利</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">42</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">42</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">中国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">43</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">43</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">科特迪瓦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">44</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">44</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">喀麦隆</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">45</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">45</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">刚果民主共和国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">46</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">46</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">刚果</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">47</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">47</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">库克群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">48</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">48</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">哥伦比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">49</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">49</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">科摩罗</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">5</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿尔巴尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">50</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">50</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">佛得角</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">51</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">51</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">哥斯达黎加</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">52</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">52</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">古巴</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">53</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">53</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圣诞岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">54</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">54</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">开曼群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">55</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">55</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">塞浦路斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">56</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">56</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">捷克</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">57</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">57</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">德国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">58</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">58</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">吉布提</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">59</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">59</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">多米尼加</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">6</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">安道尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">60</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">60</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">丹麦</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">61</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">61</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">多米尼家共和国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">62</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">62</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿尔及利亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">63</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">63</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">厄瓜多尔</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">64</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">64</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">埃及</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">65</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">65</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">厄立特里亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">66</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">66</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">西撒哈拉</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">67</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">67</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">西班牙</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">68</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">68</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">爱沙尼亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">69</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">69</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">埃塞俄比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">7</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">荷属安的列斯</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">70</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">70</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">芬兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">71</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">71</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">斐济</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">72</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">72</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">马尔维纳斯群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">73</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">73</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">法国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">74</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">74</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">法罗群岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">75</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">75</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">密克罗尼西亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">76</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">76</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">加蓬</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">77</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">76</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国（独立领土公民、出不用）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">78</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">78</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国（海外民，出不用）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">79</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">79</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国（海外公民，出不用）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">8</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">8</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿联酋</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">80</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">80</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国（保护公民，出不用）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">81</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">81</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">82</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">82</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">英国（隶属，出不用）</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">83</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">83</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">格鲁吉亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">84</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">84</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">加纳</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">85</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">85</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">直布罗陀</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">86</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">86</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">几内亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">87</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">87</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">瓜德罗普</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">88</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">88</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">冈比亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">89</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">89</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">几内亚比绍</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">9</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">9</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">阿根廷</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">90</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">90</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">赤道几内亚</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">91</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">91</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">希腊</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">92</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">92</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">格林纳达</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">93</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">93</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">格陵兰</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">94</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">94</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">危地马拉</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">95</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">95</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">法属圭亚那</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">96</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">96</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">关岛</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">97</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">97</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">圭亚那</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">98</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">98</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">香港</encodingItem>
+</Nationality>
+
+<Nationality>
+  <id   rdf:datatype="&xsd;string">99</id>
+  <encodingType   rdf:datatype="&xsd;string">yaxin</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">99</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">赫德岛和麦克唐纳</encodingItem>
+</Nationality>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasOutPatientCaseSerialID"/>
+  <owl:DatatypeProperty rdf:ID="hasName">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentCode">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDepartmentName">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="visitTime">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorWorkID">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasAttendingDoctorName">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisCode">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisName">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasDiagnosisCodeType">
+ <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#DiagnosisCodeType"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasDiagnosisDescription">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="currentDiseaseHistory">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasComplaint">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConfidentiality">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasMedicalFeeSource">
+ <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#MedicalFeeSource"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasPatientJurisdiction">
+ <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#PatientJurisdiction"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasInternalPatientIDNumber">
+ <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+ <rdfs:range rdf:resource="#Patient"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasSymptomDescription">
+    <rdfs:domain rdf:resource="#OutPatientCaseRecord"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "OutPatientCaseRecord">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasOutPatientCaseSerialID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDepartmentCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasDepartmentName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#visitTime"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAttendingDoctorWorkID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasAttendingDoctorName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasDiagnosisCodeType" />
+      <owl:allValuesFrom rdf:resource = "#DiagnosisCodeType" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasMedicalFeeSource" />
+      <owl:allValuesFrom rdf:resource = "#MedicalFeeSource" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasPatientJurisdiction" />
+      <owl:allValuesFrom rdf:resource = "#PatientJurisdiction" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber" />
+      <owl:allValuesFrom rdf:resource = "#Patient" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:InverseFunctionalProperty rdf:ID = "hasInternalPatientIDNumber"/>
+  <owl:DatatypeProperty rdf:ID="hasIssuingRegion">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIDNumber">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasIDCardType">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasGender">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#Gender"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasName">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasPatientJurisdiction">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#PatientJurisdiction"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasMarriageStatus">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#Marriage"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="dateOfBirth">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasBirthPlace">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#BirthPlace"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasEthnicGroup">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#EthnicGroup"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasNativePlace">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasNationality">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#Nationality"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="telephoneNumber">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="mobilePhone">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="workMailCode">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="workPlaceName">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="workPlaceAddress">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="workPlacePhone">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasJobName">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="homeAdderss">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="homePhone">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hukouPhone">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hukouAddress">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressInCity">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressInTown">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="addressInStreet">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hukouMailCode">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasContactName">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:ObjectProperty rdf:ID="hasContactRelation">
+ <rdfs:domain rdf:resource="#Patient"/>
+ <rdfs:range rdf:resource="#ContactRelation"/>
+</owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasContactAddress">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasConfidentiality">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modificationTime">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="modification">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="profileDateTime">
+    <rdfs:domain rdf:resource="#Patient"/>
+    <rdfs:range rdf:resource="&xsd;dateTime"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "Patient">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasInternalPatientIDNumber"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasFacilityCode"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasIssuingRegion"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasGender" />
+      <owl:allValuesFrom rdf:resource = "#Gender" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#hasName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasPatientJurisdiction" />
+      <owl:allValuesFrom rdf:resource = "#PatientJurisdiction" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasMarriageStatus" />
+      <owl:allValuesFrom rdf:resource = "#Marriage" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasBirthPlace" />
+      <owl:allValuesFrom rdf:resource = "#BirthPlace" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasEthnicGroup" />
+      <owl:allValuesFrom rdf:resource = "#EthnicGroup" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasNationality" />
+      <owl:allValuesFrom rdf:resource = "#Nationality" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource = "#hasContactRelation" />
+      <owl:allValuesFrom rdf:resource = "#ContactRelation" />
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#modification"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#PatientJurisdiction"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#PatientJurisdiction"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#PatientJurisdiction"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "PatientJurisdiction">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">1</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">本县区</encodingItem>
+</PatientJurisdiction>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">2</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">本市其他县区</encodingItem>
+</PatientJurisdiction>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">3</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">本省其他地市</encodingItem>
+</PatientJurisdiction>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">4</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">外省</encodingItem>
+</PatientJurisdiction>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">5</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">港澳台</encodingItem>
+</PatientJurisdiction>
+
+<PatientJurisdiction>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">6</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">外籍</encodingItem>
+</PatientJurisdiction>
+
+  <owl:DatatypeProperty rdf:ID="encodingType">
+    <rdfs:domain rdf:resource="#PersonalIDCardType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingValue">
+    <rdfs:domain rdf:resource="#PersonalIDCardType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="encodingItem">
+    <rdfs:domain rdf:resource="#PersonalIDCardType"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID = "PersonalIDCardType">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#id"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingType"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingValue"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#encodingItem"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">1</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">06</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">Exit-EntryPermitforHongKongandMacao</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">2</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">07</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">Exit-EntryPermitforTaiwan</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">3</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">02</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">HuKou</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">4</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">04</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">MilitaryOfficerCard</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">5</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">99</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">OtherLegitCertificate</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">6</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">03</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">Passport</encodingItem>
+</PersonalIDCardType>
+
+<PersonalIDCardType>
+  <id   rdf:datatype="&xsd;string">7</id>
+  <encodingType   rdf:datatype="&xsd;string">wuhan</encodingType>
+  <encodingValue   rdf:datatype="&xsd;string">01</encodingValue>
+  <encodingItem   rdf:datatype="&xsd;string">ResidentIDCard</encodingItem>
+</PersonalIDCardType>
+
+</rdf:RDF >

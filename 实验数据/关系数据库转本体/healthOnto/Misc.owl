@@ -1,0 +1,310 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标出生地编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB2260-2007"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标民族编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB3304-1991"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国际诊断编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#ICD-10"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#InternationalStandard"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标职务编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T12406-2008"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标主诊断编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T15657-1995"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标专业编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T16835-1997"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标婚姻状况编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2261.2-2003"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标国籍编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2659-2000"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标联系人关系编码"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T4761-2008_1"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#AdditionalDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Description"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Currency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EUStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Fee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T12406-2008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T15657-1995",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "中医诊断代码标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T16835-1997",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2261.1-2003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标性别编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2261.2-2003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标婚姻状况编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T2659-2000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T4761-2008_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB/T8561-2001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国标职称代码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB2260-2007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#GB3304-1991",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#ICD-10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#InternationalStandard" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#InPatientPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Payment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#InternationalStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#NTD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#Currency" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#OutPatientPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Payment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Payment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PurchasePrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#RMB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#Currency" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#RetailPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#SelfPaidPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Payment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#USD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/Misc#Currency" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#USStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasAdditionalDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasCurrency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Currency"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Description"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#priceValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+} ]

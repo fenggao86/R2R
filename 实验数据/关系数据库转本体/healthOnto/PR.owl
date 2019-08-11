@@ -1,0 +1,3230 @@
+[ {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#BidTypeCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "招标类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#DeviceType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "设备类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#EssentialMedicineTypeCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "基本药物类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Medicine",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "药品"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#MedicineTypeCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "药品类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#MethodOfAdministration",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "给药方式类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#PharmaceuticalTypeCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "药品类别类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Specimen",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "标本"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#SpecimenType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "标本类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#SurgicalSite",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术部位类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#SurgicalWoundRecoveryType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术伤口愈合类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Symptom",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "症状"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Treatment",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "治疗"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#hasMedicineCode",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EUStandard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "欧盟标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#InPatientPayment",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "住院病人费用支付"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#InternationalStandard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国际标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#OutPatientPayment",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门诊费用支付"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PRCStandard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国家（中国）标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Payment",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "费用支付"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Price",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "价格"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#PurchasePrice",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "采购价格"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#RetailPrice",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "零售价格"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#SelfPaidPayment",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "自付费用支付"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#Standardization",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#USStandard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "美国标准"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AddressType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "地址类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#AmbulatoryStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "救护车服务状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#BirthPlace",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出生地"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Confidentiality",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "保密性"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ContactRelation",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "联系人关系"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Department",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "科室/部门"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#DepartmentType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "科室类别"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Disability",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "残障状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Doctor",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医生"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EmploymentStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "雇佣状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Enterprise",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "企业"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseContactPerson",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "企业联系人"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseGroup",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "企业集团"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EnterpriseType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "企业类别"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#EthnicGroup",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "民族"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Executive",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "行政人员"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FacilityDistrict",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病区"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FacilityType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "机构类型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#FinancialClass",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "经济状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Gender",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "性别"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#GovernanceRelation",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "从属关系"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#HealthCard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "健康卡"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Hospital",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医院"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "身份证明"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#IDCardType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "身份证明类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#InsuranceCompany",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "保险公司"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#InsurancePayor",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "保险赔付方"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobCode",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "职务代码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobTitle",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "职称"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#JobType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "职业类型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#LegalPerson",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "法人"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Manufacturer",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "制造商"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Marriage",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "婚姻状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFacilityType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗机构类型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗费用来源"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalInsuranceType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗保险类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalStaff",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医技人员"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Modification",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "修改状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nationality",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "国籍"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Nurse",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "护士"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "组织"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationLevel",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "机构等级"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "组织状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OrganizationType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "组织类型"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#OtherPersonnel",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "其他人员"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Paticipant",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "参与机构（？）"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patient",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病患"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PatientContactPerson",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病患联系人"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "人员"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "个人身份证明"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalIDCardType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "个人身份证明类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PersonalStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "个人状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#PrimaryLanguage",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "主要语言"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#ProfileStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "档案状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Provider",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗服务提供人员"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Religion",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "宗教信仰"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Site",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "系统地址"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SiteGroup",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "系统地址集群"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCard",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "社保卡"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#SocialInsuranceCardType",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "社保卡类型编码"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Specialty",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "专业领域"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Status",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Supplier",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "供应商"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#VisitStatus",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗访问状态"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIntranetID",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasMedicalRecord",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasOrganizationCode",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPrimaryCareProvider",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWorkIDNumber",
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#profileDateTime",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ABOBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AdmissionAssessmentRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "入院评估记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AdmissionRegistrationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "入院挂号记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AdmissionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "入院类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AllergyResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "过敏反应检查记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#LaboratoryExamniationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Anesthesia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "麻醉"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AnesthesiaConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "麻醉知情同意书"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#AnesthesiaRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "麻醉记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BasicHealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "基本健康记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodScrapRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "血液报废记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodStockRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "血液库存记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodTransfusionConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "输血知情同意书"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodTransfusionMonitoringRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "输血监控记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodTransfusionReactionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "输血反应记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BloodTransfusionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "输血记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "业务记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessVolumeSummary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "业务量摘要"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "案例"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Process"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病案记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Charge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ChargeType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ChargeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "收费类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ComplicatedDiseaseDiscussionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "疑难杂症讨论记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiscussionRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ConsultationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "会诊记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CriticalConditionNotice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病危通知书"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CriticalNursingRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病重病危护理记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DailyTreatmentCourseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "日常诊疗记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeathWithin24hAdmissionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "入院24小时内死亡记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeceaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeathWithin24hDischargeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出院24小时内死亡记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeceaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeceaseDiscussionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "死亡讨论记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiscussionRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DeceaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "死亡记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DepartmentTransferRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "科室转诊记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TransferRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedDiagnosisRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细诊断记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedDoctorAdviceRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细医嘱记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedInPatientCaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细住院病案记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedInPatientFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细住院费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedOperationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细手术记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DetailedOutEmergencyPatientFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "详细门诊费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "诊断"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiagnosisCodeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "诊断代码类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DischargeFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出院费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DischargeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出院记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DischargeRegistrationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出院注册记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiscussionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "讨论记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DoctorAdvice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医嘱"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DoctorAdviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医嘱类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#EmergencyObservationCaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "急诊留观记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#EmergencyPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Examination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "检查"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "检查申请"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationOrderType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "检查申请类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "检查报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FirstTreatmentCourseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "首次诊疗病程记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FirstTreatmentPostOpRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "术后首次诊疗记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "随访"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FollowUpMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "随诊类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FollowUpPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "随诊周期类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#GB/T15657-1995",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiagnosisCodeType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "02"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#GeneralImageExaminationReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "通用影像检查报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ImageExaminationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#GeneralLabReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "通用实验室记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#LaboratoryExamniationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#HighValueConsumptionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "高价值消耗记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ICD10Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diagnosisCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ICD9-CM-3Code",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#operationCode"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ICD_10_DiagnosisCodeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiagnosisCodeType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "01"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ImageExaminationReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "影像检查报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InPatientCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "住院过程"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Case"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InPatientCaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "住院病案记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InPatientDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "住院诊断"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InPatientVitalSignalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "住院病患生命指征记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#VitalSignalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InboundMedicineStockRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉-6.4.1-表6-4-药品入库明细信息"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#IndicatorReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "指征记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#LaboratoryExamniationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InfusionStartTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#startTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Insurance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "保险"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#InsuranceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "保险类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#IntakeAndOutputRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "出入量记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#LaboratoryExamniationReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "实验室检查报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicalDeviceUsageRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗设备使用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicalEventSummary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "医疗事件记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicalFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "过往医疗费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "药品记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineStockChangeSummary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉-6.3.1-表6-2-药品库存变动登记表"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineStockingRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉-6.2.1-表6-2-药品库存信息表"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MethodOfDelivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "分娩方式类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MicrobiologyIsolation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "微生物培养记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MicrobiologyResult"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MicrobiologyResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "微生物检测报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#LaboratoryExamniationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MicrobiologySusceptibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "微生物易感性检查记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MicrobiologyResult"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "知情同意书/通知"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Nursing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "护理"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingPlanRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "护理计划记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "护理记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Operation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OperationConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术知情同意书"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OperationNursingRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "术后护理记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NursingRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OperationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OperationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OtherPatientType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Out&EmergencyFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门急诊费用记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Out&EmergencyRegsitrationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门诊挂号记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutPatientCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门诊过程"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Case"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutPatientCaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门诊病案记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#CaseRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutPatientDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "门诊诊断"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutboundMedicineStockRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉-6.5.1-表6-5-药品消耗信息表"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "病患医疗记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientPositionInOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术患者体位"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "患者类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PeriodicalTreatmentSummary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "阶段性病程小结"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PharmacyClinicFilled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PharmacyClinicPresciption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PharmacyHospitalDispense",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PharmacyHospitalOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PhysicalExaminationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "体格检查记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ExaminationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PostAnesthesiaInterviewRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "麻醉术后访谈记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PreAnestheisaInterviewRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "麻醉术前访谈记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PreDeliveryRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "产前记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PreOperativeSummaryRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "术前总结"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PreoperativeDiscussionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "术前讨论记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiscussionRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Prescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "处方"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PrescriptionAlertRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "武汉-6.6-医生触警明细表"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#MedicineRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PrescriptionRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "处方记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Process",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "流程"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RHBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "RH血型类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "记录"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Refund",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ChargeType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Register",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "注册/挂号记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "注册/挂号类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RescueRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "抢救记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Revoke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "服务项目"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Process"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ServiceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "服务项目类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ShiftChangeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "交接班记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#SpecialTreatmentConsent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "特殊诊疗知情同意书"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#NotificationAndConsent"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#StockChangeTypeCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "库存变动类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#SuperiorDoctorCheckingRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "上级医师查房记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#SurgicalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术状态类型编码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Misc#EncodedType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TransferRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "转诊记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BusinessRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TreatmentRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "诊疗/病程记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TypeABlood",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ABOBloodType" ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasPRCCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasWuhanCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#TypeBSonicraphyReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "B超检查报告"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ImageExaminationReport"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#VitalSignalRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "生命体征记录"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ClinicalRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#admissionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#allergicHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#allowAutopsy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#bloodTransfusionHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#causeOfExamination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#causeOfTransfer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#childBirthTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#contagiousDiseaseHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diseaseHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#currentDiseaseHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diseaseHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diagnosedDTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diagnosisCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#dischargedTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diseaseHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#emergencyObservationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#endTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#examinationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#expectedDeliveryDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#familyHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasABOBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#BasicHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ABOBloodType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAdmissionDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAdmissionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAllergicHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAllergyResultID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnatomicalSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnestheisaMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnesthesia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnesthesiaApplicationID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnesthetist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAppliedABOBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAppliedRHBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasApprover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAttendingDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBSonicraphyReportID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBacteriaResultID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBatchID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBedID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodDonationCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodIssuingID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodProductCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodTransfusionApplicationID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodTransfusionHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBloodTransfusionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCancellor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCaseRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCaseRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasChargeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ChargeType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasChiefDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCirculatingNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNurse"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasComplaint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasConsultationApplicationID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasConsultationRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCourseRecordText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCurrentDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDeceaseDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDeliveryMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDepotID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDetailedInPatientFeeRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDetailedInboundMedicineStockingRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDetailedOutEmergencyFeeRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDetailedOutboundMedicineStockingRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#OutboundMedicineStockRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDetailedPhysicalExaminationRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosingFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "诊断医疗机构"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosisCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.owl-ontologies.com/unnamed.owl#ICD10_Chapter"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosisCodeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#DiagnosisCodeType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosisName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosisRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosisRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDischargeDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDischargeDoctorAdvice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDosctorAdvice"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiscussionConclusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiscussionText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctorAdviceExecutionStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctorAdviceID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctorAdviceRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctorAdviceText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctorAdviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDosctorAdvice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEmergencyObservationCourseRecordText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCourseRecordText"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEnterOperationRoomTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExamination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Examination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationFindingText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationOrderType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasServiceType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationResultText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExecutionDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExecutor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFeeRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#FeeRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFirstOperationAssistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFollowUpMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFollowUpPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasFutureTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasGeneralImageExaminationReportID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasGeneralLabReportID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasHost",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInBoundTransferDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "关联转出科室"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInBoundTransferTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientCaseSerialID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCaseRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInPatientVitalSignalRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasIndicatorReportID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasExaminationRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInstrumentNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInsuranceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInvasiveTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "有创诊疗操作标志"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasInvoice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasIssuingDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasIssuingFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasKeyMedicine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicine"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasKeyMedicineUsageDescriptionText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicineUsageDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasLeaveOperationRoomTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalFeeSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#MedicalFeeSource"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Medicine"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicineGeneralName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#hasMedicineName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicineProductName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#hasMedicineName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicineStockChangeSummaryID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicineUsageDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMemo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMethodOfAdministration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#MethodOfAdministration"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNursing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationAssistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasName"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationRoomID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRoomID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrderingDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrderingDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Organization"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOut&EmergencyPatientID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOutBoundTransferDepartment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "关联转入科室"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasDepartment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOutBoundTransferTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOutPatientCaseSerialID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasCaseRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOutPatientDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasParticipator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPastTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Patient"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPatientPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "关联手术时患者体位"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPatientType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPatrolNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPhysicalExaminationSummaryID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPlannedAnesthesia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasAnesthesia"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPlannedOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "关联拟实施手术"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperation"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPostOpDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPreOpDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPreliminaryDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPrescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Prescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPrescriptionID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasProcedureNarrativeText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasProfileCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#PatientMedicalRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRHBloodType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasReceptionDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasReceptionNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNurse"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordApprovalTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordCancelTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordExecutionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordOperator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#Record"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasProfileStatus"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordStopTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordVerificationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRegistrationRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRegistrationRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRegistrationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#RegistrationType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantGeneralLabReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecord"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasReporter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRescueRecordID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasResidentDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasResponsibleNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNurse"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRoomID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasIDNumber"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasScrubNurse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasNurse"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSecondOperationAssistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasOperationPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasService",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasServiceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#ServiceType"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSideEffectDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSpecimenReceptionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasStockingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasStopper",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRelevantRecordPersonnel"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSuperiorDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSurgicalAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "手术介入物名称"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasSymptom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "所关联的症状"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Symptom"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTargetFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#hasFacility"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTransferDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDoctor"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/Medical#Treatment"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatmentAdvice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatmentCourseSerialID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasRecordID"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTreatmentDescriptionText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasTextualDescription"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#infusionEndTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#endTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#isFirstVisit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#isPortableExamination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#isPrimaryDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasBooleanFlag"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#lastModifiedTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#lengthOfOperationInMinutes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#lengthOfStayInDays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#marriageHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicineAdminsitrationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#menstrualHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#numberOfOperations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/PersonnelOrganization#amountOf"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#observationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#onsetTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#operationCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#pastDiseaseHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#diseaseHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#patientWhereaboutCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "患者去向代码"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasEncoding"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#personalHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#physicalExaminationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#placeOfDiscussion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedAnesthesiaTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedBloodTransfusionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedExaminationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedOperationTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedSpecimenCollectionTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#plannedTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#problemRecordedTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#relevantApplicationForReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "对应检查记录的检查申请"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#rescueTIme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#shiftEndTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#endTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#shiftStartTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#startTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#singatureDateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#startTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#surgicalOperationHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#timeOfDeath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#transferDepartureTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#transferTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#transferTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#usesDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#vaccinationHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#hasMedicalHistory"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#visitReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#visitTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.wust.edu.cn/OntoWeb/ProcessRecord#medicalDateTime"
+  } ]
+} ]

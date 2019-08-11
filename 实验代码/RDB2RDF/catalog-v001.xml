@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="http://www.owl-ontologies.com/animal.owl" uri="animal.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="output4.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="iswc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="output3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="output2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="output1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1542633260690" name="duplicate:http://www.semanticweb.org/xzra/ontologies/2018/0/wust" uri="lxx.owl"/>
+    </group>
+</catalog>

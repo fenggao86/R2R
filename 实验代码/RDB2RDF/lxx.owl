@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY xsd  "http://www.w3.org/2001/XMLSchema#" >
+]>
+<rdf:RDF xmlns="http://www.semanticweb.org/xzra/ontologies/2018/0/wust#"
+    xml:base="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xzra/ontologies/2018/0/wust"/>
+
+<owl:InverseFunctionalProperty rdf:ID = "EmployeeID"/>
+  <owl:DatatypeProperty rdf:ID="EmployeeName">
+    <rdfs:domain rdf:resource="#Employee"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID="Employee">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#EmployeeID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#EmployeeName"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+</owl:Class>
+
+<Employee>
+  <EmployeeID   rdf:datatype="&xsd;string">123</EmployeeID>
+  <EmployeeName   rdf:datatype="&xsd;string">lan</EmployeeName>
+</Employee>
+
+<Employee>
+  <EmployeeID   rdf:datatype="&xsd;string">124</EmployeeID>
+  <EmployeeName   rdf:datatype="&xsd;string">ming</EmployeeName>
+</Employee>
+
+<owl:ObjectProperty rdf:ID="hasEmployeeID">
+ <rdfs:domain rdf:resource="#Project"/>
+ <rdfs:range rdf:resource="#Employee"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:ID="hasProjectID">
+ <rdfs:domain rdf:resource="#Employee"/>
+ <rdfs:range rdf:resource="#Project"/>
+</owl:ObjectProperty>
+
+<owl:InverseFunctionalProperty rdf:ID = "ProjectID"/>
+  <owl:DatatypeProperty rdf:ID="ProjectName">
+    <rdfs:domain rdf:resource="#Project"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID="Project">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#ProjectID"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<Project>
+  <ProjectID   rdf:datatype="&xsd;string">311</ProjectID>
+  <ProjectName   rdf:datatype="&xsd;string">MOA</ProjectName>
+</Project>
+
+<Project>
+  <ProjectID   rdf:datatype="&xsd;string">312</ProjectID>
+  <ProjectName   rdf:datatype="&xsd;string">app</ProjectName>
+</Project>
+
+
+<owl:Class rdf:ID="Softwareproject">
+  <rdfs:subClassOf rdf:resource="#Project"/>
+</owl:Class>
+
+<owl:InverseFunctionalProperty rdf:ID = "classId"/>
+  <owl:DatatypeProperty rdf:ID="className">
+    <rdfs:domain rdf:resource="#school"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+
+<owl:Class rdf:ID="school">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#classId"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<school>
+  <classId   rdf:datatype="&xsd;string">1</classId>
+  <className   rdf:datatype="&xsd;string">软件</className>
+</school>
+
+<school>
+  <classId   rdf:datatype="&xsd;string">2</classId>
+  <className   rdf:datatype="&xsd;string">网络</className>
+</school>
+
+<owl:InverseFunctionalProperty rdf:ID = "studentId"/>
+  <owl:DatatypeProperty rdf:ID="name">
+    <rdfs:domain rdf:resource="#student"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="gender">
+    <rdfs:domain rdf:resource="#student"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="age">
+    <rdfs:domain rdf:resource="#student"/>
+    <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="className">
+    <rdfs:domain rdf:resource="#student"/>
+    <rdfs:range rdf:resource="&xsd;string"/>
+  </owl:DatatypeProperty>
+<owl:InverseFunctionalProperty rdf:ID = "classId"/>
+
+<owl:Class rdf:ID="student">
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#studentId"/>
+      <owl:minCardinality rdf:datatype = "&xsd;nonNegativeInteger">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#name"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction >
+  </rdfs:subClassOf>
+  <rdfs:subClassOf >
+    <owl:Restriction >
+      <owl:onProperty rdf:resource = "#classId"/>
+      <owl:minCardinality rdf:datatype = "&xsd;string">1</owl:minCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<student>
+  <studentId   rdf:datatype="&xsd;int">1</studentId>
+  <name   rdf:datatype="&xsd;string">lan</name>
+  <gender   rdf:datatype="&xsd;string">男</gender>
+  <age   rdf:datatype="&xsd;int">12</age>
+  <className   rdf:datatype="&xsd;string">网络</className>
+  <classId   rdf:datatype="&xsd;string">1</classId>
+</student>
+
+<student>
+  <studentId   rdf:datatype="&xsd;int">2</studentId>
+  <name   rdf:datatype="&xsd;string">ming</name>
+  <gender   rdf:datatype="&xsd;string">男</gender>
+  <age   rdf:datatype="&xsd;int">33</age>
+  <className   rdf:datatype="&xsd;string">软件</className>
+  <classId   rdf:datatype="&xsd;string">2</classId>
+</student>
+
+</rdf:RDF >
